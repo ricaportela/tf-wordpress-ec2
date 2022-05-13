@@ -10,7 +10,7 @@ export AWS_SECRET_ACCESSS_KEY=<copy from aws.console value>
  aws sts get-caller-identity
  
 
-# Use  Terraform with containers
+# Use  Terraform with containers, only Docker and Docker-compose need to be instaled
  docker-compose run --rm tf init
 
  docker-compose run --rm tf fmt
