@@ -1,16 +1,16 @@
 # Repo to create terraform inframstraucture on AWS 
-# For Test purpose only
+## For Test purpose only
 
-# Inside Terminal export this variables
+## Inside Terminal export this variables
 export AWS_ACCESS_KEY=<copy from aws.console value>
 
 export AWS_SECRET_ACCESSS_KEY=<copy from aws.console value>
 
-# Add user credentials 
+## Add user credentials 
  aws sts get-caller-identity
  
 
-# Use  Terraform with containers, only Docker and Docker-compose need to be instaled
+## Use  Terraform with containers, only Docker and Docker-compose need to be instaled
  docker-compose run --rm tf init
 
  docker-compose run --rm tf fmt
